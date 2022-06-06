@@ -72,7 +72,7 @@ from sidou import *
   pred = ... # prediction bounding box ((x, y, w, h), n)
   gt = ... # prediction bounding box (n, (x, y, w, h))
 
-  iou = bbox_iou(pred, gt, x1y1x2y2=True, SDIoU=False, std_type='mean')
+  iou = bbox_iou(pred, gt, SDIoU=True, std_type='mean')
   ...
 
 ```

@@ -25,7 +25,7 @@ For easy understanding, the figure below shows each elements of the equation.
 Following the equation based on $\theta$, the normalization factor is affected by the center point distance of bounding boxes. And the problems resulting from this can be seen in the figure below.
 
 <div align="center">
-<img src="https://wiki.seareale.dev/uploads/images/gallery/2022-06/5WTEuPfaNeOPJ1lX-image-1654426596689.png" hspace=20/>
+  <img src="https://wiki.seareale.dev/uploads/images/gallery/2022-06/chXSKAk4rTl9Axj0-image-1654430531666.png" hspace=20/>
   <p>Illustrations of the position, scale problems of DIoU</p>
 </div>
 
@@ -50,7 +50,7 @@ The values of $SD_x$ and $SD_y$ get 0 ~ 4 when the two bounding boxes overlap. S
 And SDIoU(Standardized Distance-based IoU) solved all the problems of DIoU: Position, Scale.
 
 <div align="center">
-<img src="https://wiki.seareale.dev/uploads/images/gallery/2022-06/chXSKAk4rTl9Axj0-image-1654430531666.png" hspace=20/>
+  <img src="https://wiki.seareale.dev/uploads/images/gallery/2022-06/5WTEuPfaNeOPJ1lX-image-1654426596689.png" hspace=20 width=80%/>
   <p>Illustrations of SDIoU that solves the problems of DIoU.</p>
 </div>
 
